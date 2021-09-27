@@ -22,7 +22,7 @@ steps:
 
 - script: |
     gulp build -ship
-    gulp bundle -ship
+    gulp bundle -debug
     gulp package-solution --ship
     npm run build
     dir
